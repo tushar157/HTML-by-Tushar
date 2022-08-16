@@ -1,0 +1,43 @@
+<!-- CSS Selectors -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* styling using id */
+        #chemical{
+            color: red;
+            background-color: chartreuse;
+        }
+        /* styling using class */
+        .mechanical{
+            color: white;
+            background-color: darkcyan;
+        }
+        /* For paragraph tag,but this will overlap another paragraph tags if their similar properties are not defined */
+        p{
+            color: yellow;
+            background-color: black;
+            border: 2px solid rgb(35, 250, 7);
+        }
+        /* Grouping Selectors */
+        span, footer{
+            color: aqua;
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <h3>CSS Selectors</h3>
+    <p id="chemical">This is a simple paragraph to demnstrate CSS Selectors</p>
+    <p id="electrical" class="mechanical">This is another simple paragraph to demonstrate CSS Selectors</p>
+    <div>
+        <p>This is yet another paragraph to demonstrate CSS Selectors</p>
+    </div>
+    <span>This is span tag</span>
+    <footer>This is footer tag</footer>
+</body>
+</html>

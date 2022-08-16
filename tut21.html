@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        body{
+            background: rgb(240, 187, 187);
+
+        }
+        .container{
+            width: 900px;
+            border: 3px solid purple;
+            margin: 33px auto;
+            background-color: rgb(116 203 201);
+            border-radius: 20px;
+        }
+        .item{
+            border: 3px solid rgb(248, 5, 5);
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background: rgb(248, 238, 238);
+
+        }
+        #fruit{
+            float: left;
+            width: 47.5%;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        #computer{
+            float: right;
+            width: 47.5%;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        #stationary{
+            /* float: left; */
+            clear: both;
+            width: 47.5%;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        p{
+            /* text-align: left;
+            text-align: right;
+            text-align: center; */
+            text-align: justify;
+        }
+        h2,h3{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Durex:World's thinnest condom</h2>
+        <div id="fruit" class="item">
+            <h3>Extra Dotted</h3>
+            <p id="fruitpara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse aliquam veniam, exercitationem distinctio eos cupiditate soluta ipsum fuga accusamus sed ut impedit nihil incidunt vel corrupti rerum earum tempora enim voluptas sequi nam placeat.</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Extra Thin</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. At nemo cum sint accusamus eaque tempore minima eveniet libero veniam recusandae, eligendi odit officia, iusto molestias consequatur amet, rem adipisci incidunt dolore. Culpa, ipsa modi.</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>Long lasting</h3>
+            <p id="fruitspara" class="para">If you cum in just 2 minutes<hr>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto officia consectetur iste hic voluptates corrupti cumque pariatur dolorem, molestiae suscipit reprehenderit enim. Iste cum tenetur a amet aliquam labore nisi eligendi id. Officiis, animi?</p>
+        </div>
+    </div>
+</body>
+</html>
